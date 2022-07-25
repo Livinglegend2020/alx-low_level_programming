@@ -19,7 +19,7 @@ char *_strdup(char *str)
 		;
 
 	strout = (char *)malloc(sizeof(char) * (i + 1));
-	
+
 	if (strout == NULL)
 		return (NULL);
 
@@ -28,4 +28,3 @@ char *_strdup(char *str)
 
 	return (strout);
 }
-
