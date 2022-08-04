@@ -86,7 +86,7 @@ void print_all(const char * const format, ...)
 		{"i", print_int},
 		{"f", print_float},
 		{"s", print_string}
-	}
+	};
 
 	va_start(args, format);
 
@@ -109,5 +109,5 @@ void print_all(const char * const format, ...)
 
 	printf("\n");
 
-	va_end(args)
+	va_end(args);
 }
